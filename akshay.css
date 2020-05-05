@@ -1,0 +1,98 @@
+body{
+    background-image: url('images/bgp.jpg');
+    background-attachment: fixed;  
+  	background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.header img {
+  position: fixed;
+  top:5px;
+  left: 300px;
+  width: 150px;
+  height: 150px;
+}
+
+.header h1 {
+  position: fixed;
+  top: 5px;
+  left: 450px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+}
+
+.sign img{
+	position: fixed;
+	top: 70px;
+	right: 10px;
+	height: auto;
+}
+
+.learn {
+  position: fixed;
+  top: 245px;
+  left: 800px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #51361a;
+}
+
+.practice {
+  position: fixed;
+  top: 425px;
+  left: 725px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #51361a;
+}
+
+.wrap{
+	width: 1000px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.card1{
+	position: fixed;
+	top: 150px;
+	left: 80px;
+	width: 300px;
+	text-align: center;
+	font-size: 16px;
+	font-family: sans-serif;
+	float: left;
+	margin: 10px;
+}
+
+.card2{
+	position: fixed;
+	top: 150px;
+	left: 850px;
+	width: 300px;
+	text-align: center;
+	font-size: 16px;
+	font-family: sans-serif;
+	float: left;
+	margin: 10px;
+}
+
+.container {
+  top: 70px;
+  width:720px;
+  height:100px;
+  margin: 0 auto;
+  position:relative;
+  font-family: 'Zilla Slab', serif;
+  color:black;
+  font-size:100px;
+  line-height:70px;
+  text-align:center;
+}
+
+.title {
+  display:inline;
+  position:relative;
+}
